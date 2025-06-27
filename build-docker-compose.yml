@@ -78,7 +78,7 @@ services:
     volumes:
       - ./userservice:/usr/src
       - ./maven-repo:/root/.m2
-      
+  #test test
   libraryservice:
     depends_on: 
       - kafka
