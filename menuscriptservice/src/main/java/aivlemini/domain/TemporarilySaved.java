@@ -14,7 +14,7 @@ public class TemporarilySaved extends AbstractEvent {
     private Long id;
     private String date;
     private String contents;
-    private AuthorId authorId;
+    private Long authorId;
     private String title;
     private String status;
     private String authorName;

@@ -19,7 +19,7 @@ public class Author {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Long authorId;
 
     private String email;
 

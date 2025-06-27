@@ -15,7 +15,7 @@ public class PublishPrepared extends AbstractEvent {
     private String bookName;
     private String pdfPath;
     private String category;
-    private String authorId;
+    private Long authorId;
     private Object manuscriptId;
     private Boolean notifyStatus;
     private String authorName;

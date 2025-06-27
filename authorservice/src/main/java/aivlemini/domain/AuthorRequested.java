@@ -11,7 +11,7 @@ import lombok.*;
 @ToString
 public class AuthorRequested extends AbstractEvent {
 
-    private Long id;
+    private Long authorId;
     private String authorName;
     private String email;
     private String introduce;

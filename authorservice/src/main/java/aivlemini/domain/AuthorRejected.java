@@ -11,7 +11,7 @@ import lombok.*;
 @ToString
 public class AuthorRejected extends AbstractEvent {
 
-    private Long id;
+    private Long authorId;
     private Boolean isApprove;
     private String authorName;
     private String email;

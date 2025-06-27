@@ -32,7 +32,7 @@ public class Manuscript {
     private String authorName;
 
     @Embedded
-    private AuthorId authorId;
+    private Long authorId;
 
     @PostPersist
     public void onPostPersist() {
