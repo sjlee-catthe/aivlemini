@@ -31,7 +31,6 @@ public class Manuscript {
 
     private String authorName;
 
-    @Embedded
     private Long authorId;
 
     @PostPersist
